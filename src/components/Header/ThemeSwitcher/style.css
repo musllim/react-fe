@@ -1,0 +1,23 @@
+#theme-swither {
+  border: 2px solid var(--primary-clr);
+  position: relative;
+  border-radius: 100vmax;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1em 0.1em;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 100%;
+  transition: all 0.4s;
+  translate: -100% -50%;
+  z-index: -1;
+}

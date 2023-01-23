@@ -1,0 +1,77 @@
+:root {
+  --bg-transparent: #f3bb2e4f;
+}
+
+:root:has([data-theme="light"]) {
+  --primary-clr: #10001d;
+  --secondary-clr: #f3bc2e;
+  --active-clr: #0036f5;
+  --bg-clr: #fff;
+  --nav-bg-clr: #f3bc2e;
+  --nav-text-clr: var(--primary-clr);
+  --text-field-bg: var(--bg-clr);
+}
+
+:root:has([data-theme="dark"]) {
+  --primary-clr: #f3bc2e;
+  --secondary-clr: #10001d;
+  --active-clr: #0036f5;
+  --bg-clr: var(--secondary-clr);
+  --nav-bg-clr: var(--bg-transparent);
+  --nav-text-clr: var(--primary-clr);
+}
+
+:root:has([data-theme="light"]) #sun {
+  transition: all 0.4s;
+  z-index: 5;
+  stroke: var(--secondary-clr);
+}
+
+:root:has([data-theme="dark"]) #circle {
+  top: 50%;
+  left: 0;
+  translate: 0 -50%;
+}
+:root:has([data-theme="dark"]) #moon {
+  stroke: var(--primary-clr);
+}
+:root:has([data-theme="dark"]) #sun {
+  stroke: var(--primary-clr);
+}
+:root:has([data-theme="light"]) #moon {
+  stroke: var(--primary-clr);
+  transition: all 0.4s;
+  z-index: 5;
+}
+.icon {
+  stroke: var(--primary-clr);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--primary-clr);
+  background-color: var(--bg-clr);
+  overflow-y: hidden;
+}
+
+a {
+  font: inherit;
+  text-decoration: none;
+  color: currentColor;
+  white-space: nowrap;
+}

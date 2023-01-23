@@ -1,0 +1,12 @@
+.btn {
+  border: 1px solid var(--primary-clr);
+  border-radius: 7px;
+  padding: 0.2em 1em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary-clr);
+  color: var(--secondary-clr);
+}

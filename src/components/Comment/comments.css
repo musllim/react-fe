@@ -1,0 +1,57 @@
+.comments {
+  display: grid;
+  gap: 1em;
+  margin-top: 1em;
+  transition: 0.4s;
+}
+
+.comments > div {
+  background-color: var(--bg-transparent);
+  padding: 0.5em;
+  border-radius: 0.2em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-controls {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.avatar.sm {
+  width: 30px;
+  height: 30px;
+}
+
+.default-avatar {
+  background-color: var(--primary-clr);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.user-controls > div {
+  color: var(--primary-clr);
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+svg:has(.icon) {
+  width: 14px;
+}

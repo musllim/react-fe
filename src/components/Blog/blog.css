@@ -1,0 +1,11 @@
+#blog span {
+  white-space: nowrap;
+}
+
+pre {
+  white-space: break-spaces;
+}
+
+summary {
+  margin-bottom: 1rem;
+}

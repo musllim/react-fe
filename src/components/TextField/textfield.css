@@ -1,0 +1,19 @@
+.control {
+  display: grid;
+  width: 100%;
+}
+
+.control input,
+.control textarea,
+#blogEditor,
+#blogTitle {
+  padding: 0.3em 0.5rem;
+  font: inherit;
+  border-color: var(--primary-clr);
+  outline-color: var(--primary-clr);
+  border-radius: 4px;
+  background-color: var(--text-field-bg);
+  border: 1px solid var(--primary-clr);
+  width: 100%;
+  margin-top: 0.5rem;
+}

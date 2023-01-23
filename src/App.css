@@ -1,0 +1,21 @@
+h2,
+h1,
+#about-me h3,
+#contacts h3,
+#contacts .container > p,
+#blog h3 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+a,
+button {
+  font-size: 1.2rem;
+}
+
+#contacts,
+#blog,
+#dashboard {
+  margin-top: 7rem;
+  position: relative;
+}

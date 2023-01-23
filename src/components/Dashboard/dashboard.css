@@ -1,0 +1,130 @@
+.nav-aside {
+  background-color: var(--secondary-clr);
+  border-radius: 0.5em;
+  padding: 1em;
+  width: 15rem;
+}
+.side-bar .user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  padding: 1rem;
+}
+.dashboard {
+  display: flex;
+  margin-top: 7rem;
+}
+.side-bar {
+  left: 0;
+  top: 0;
+  translate: 5vw 70px;
+  background-color: var(--secondary-clr);
+  display: grid;
+  gap: 2rem;
+  transition: 0.4s;
+  position: fixed;
+  z-index: 1000;
+}
+
+#side-toggler {
+  display: grid;
+  place-content: center;
+  position: fixed;
+  top: 20%;
+  left: 1%;
+  translate: 0 0;
+  z-index: 10000;
+  right: 0;
+  cursor: pointer;
+  width: 30px;
+  transition: 0.4s;
+  background-color: var(--secondary-clr);
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+
+#side-toggler svg {
+  width: 50px;
+  overflow: hidden;
+}
+#side-toggler .bars {
+  display: block;
+}
+#side-toggler svg {
+  width: 50px;
+  overflow: hidden;
+}
+
+.db-card {
+  background-color: var(--bg-transparent);
+  padding: 1em 1.2em;
+  display: grid;
+  gap: 1em;
+  border-radius: 7px;
+}
+
+.notifications {
+  display: flex;
+  gap: 1rem;
+  width: calc(100% - 6rem);
+
+  max-width: calc(100vw - 6rem);
+}
+.avatar-group {
+  display: flex;
+  z-index: 1;
+}
+.avatar-group .avatar:nth-child(3) {
+  translate: -85% 0;
+}
+.avatar-group .avatar {
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+}
+.avatar {
+  border-radius: 50%;
+}
+img {
+  max-width: 100%;
+  margin-block: 1rem;
+}
+
+.db-card-moreinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word-pad {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  overflow: hidden;
+  width: 600px;
+  max-width: calc(100vw - 6rem);
+}
+
+.side-bar p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.3rem;
+}
+.icon-i {
+  fill: var(--primary-clr);
+}
+.user-info {
+  display: grid;
+}
+table {
+  margin-inline: auto;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid var(--primary-clr);
+  padding: 0.6rem;
+}

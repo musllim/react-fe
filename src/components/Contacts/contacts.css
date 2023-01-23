@@ -1,0 +1,19 @@
+#contacts {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#contacts form {
+  margin-top: 2rem;
+  width: 100%;
+  margin-inline: auto;
+  max-width: 600px;
+  display: grid;
+  gap: 1em;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+}

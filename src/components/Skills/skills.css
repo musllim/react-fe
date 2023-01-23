@@ -1,0 +1,31 @@
+#skills {
+  margin-top: 7rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.card-skills {
+  display: grid;
+  background-color: var(--bg-transparent);
+  text-align: center;
+  gap: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 7px;
+}
+img {
+  object-fit: contain;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#skills h3 {
+  text-align: center;
+}
